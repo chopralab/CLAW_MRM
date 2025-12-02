@@ -6,7 +6,7 @@
 
 ## Overview
 
-CLAW is designed to streamline the analysis of MRM-based lipidomics experiments. In this tutorial we will parse mzML data and format in organized pandas DataFrames and export as csv files. We will also reformat this data for various tools such as EdgeR (differential expression) and pathway analysis (BioPAN).
+CLAW is designed to streamline the analysis of MRM-based lipidomics experiments. In this tutorial we will parse mzML data and format in organized pandas DataFrames and export as csv files. We will also reformat this data for various tools such as EdgeR (differential expression) and pathway analysis.
 
 ## Repository Structure
 
@@ -61,7 +61,7 @@ conda activate CLAW  # or your custom name
    - Loading and processing mzML files
    - Matching lipids against the custom MRM database
    - Generating pre-EdgeR formatted files
-   - Creating BioPAN input files
+   - Creating Pathway Analysis input files
 
 
 ## Scripts
@@ -70,7 +70,7 @@ conda activate CLAW  # or your custom name
 |--------|-------------|
 | `CLAW.py` | Main processing script for mzML files and lipid matching |
 | `CLAW_preedgeR.py` | Formats intensity data for EdgeR differential analysis |
-| `CLAW_pathwayanalysis.py` | Generates pathway analysis formatted output (e.g., BioPAN) |
+| `CLAW_pathwayanalysis.py` | Generates pathway analysis formatted output |
 
 ## Contact
 
