@@ -47,8 +47,8 @@ Create a conda environment with all required dependencies:
 # Using default name "CLAW"
 conda env create -f requirements/CLAW.yml
 
-# Or specify a custom environment name
-conda env create -f requirements/CLAW.yml -n my_custom_name
+# Or specify a custom environment name (make any name you want in place of my_custom_name)
+conda env create -f requirements/CLAW.yml -n my_custom_name 
 
 # Activate the environment
 conda activate CLAW  # or your custom name
