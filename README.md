@@ -6,13 +6,13 @@
 
 ## Overview
 
-CLAW is designed to streamline the analysis of MRM-based lipidomics experiments. In this tutorial we will parse mzML data and format in organized pandas DataFrames and export as csv files. We will also reformat this data for various tools such as EdgeR (differential expression) and pathway analysis.
+CLAW-MRM is designed to streamline the analysis of MRM-based lipidomics experiments. In this tutorial we will parse mzML data and format in organized pandas DataFrames and export as csv files. We will also reformat this data for various tools such as EdgeR (differential expression) and pathway analysis.
 
 ## Repository Structure
 
 ```
-CLAW_tutorial/
-├── CLAW_tutorial.ipynb          # Tutorial Jupyter notebook
+CLAW_MRM/
+├── CLAW_MRM_tutorial.ipynb          # Tutorial Jupyter notebook
 ├── README.md
 ├── scripts/                     # Core analysis scripts
 │   ├── CLAW.py                  # Main CLAW processing script
@@ -56,7 +56,7 @@ conda activate CLAW  # or your custom name
 
 ### Quick Start
 
-1. Open `CLAW_tutorial.ipynb` in Jupyter
+1. Open `CLAW_MRM_tutorial.ipynb` in Jupyter
 2. Follow the step-by-step instructions for:
    - Loading and processing mzML files
    - Matching lipids against the custom MRM database
