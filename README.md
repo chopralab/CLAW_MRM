@@ -100,12 +100,6 @@ Group A (Control): WT samples     → 3-8 replicates
 Group B (Treatment): 5XFAD samples → 3-8 replicates
 ```
 
-## Workflow
-1. **Load data**: Labels + intensity measurements
-2. **Group samples**: Assign samples to experimental groups
-3. **Statistical testing**: Identify differentially abundant lipids
-4. **Pathway analysis**: Map significant lipids to biological pathways
-
 ## Contact
 
 For questions or collaboration:
