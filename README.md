@@ -72,6 +72,40 @@ conda activate CLAW  # or your custom name
 | `CLAW_preedgeR.py` | Formats intensity data for EdgeR differential analysis |
 | `CLAW_pathwayanalysis.py` | Generates pathway analysis formatted output |
 
+
+# 📊 PreEdgeR and Pathway Analysis
+
+## Overview
+These modules perform **differential expression analysis** and **pathway enrichment** to identify lipids that significantly differ between experimental conditions.
+
+## Requirements
+
+### Experimental Design
+- **Minimum**: 3 biological replicates per group
+- **Recommended**: 5+ biological replicates per group for increased statistical power
+- **Groups**: At least 2 groups (e.g., Treatment vs Control, Disease vs Healthy)
+
+> ⚠️ **Important**: More replicates = more robust statistical results and better detection of true differences
+
+### Data Format
+Your data must include:
+- **Labels file** (`labels.csv`): Sample metadata with group assignments
+  - Example columns: `Sample_ID`, `Genotype` (or other grouping factor)
+- **Intensity file**: Lipid measurements across samples
+  - Must contain: `Lipid`, `Sample_ID`, `Intensity` columns
+
+### Example Group Comparison
+```
+Group A (Control): WT samples     → 3-8 replicates
+Group B (Treatment): 5XFAD samples → 3-8 replicates
+```
+
+## Workflow
+1. **Load data**: Labels + intensity measurements
+2. **Group samples**: Assign samples to experimental groups
+3. **Statistical testing**: Identify differentially abundant lipids
+4. **Pathway analysis**: Map significant lipids to biological pathways
+
 ## Contact
 
 For questions or collaboration:
