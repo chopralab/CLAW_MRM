@@ -76,7 +76,7 @@ conda activate CLAW  # or your custom name
 # 📊 PreEdgeR and Pathway Analysis
 
 ## Overview
-These modules perform **differential expression analysis** and **pathway enrichment** to identify lipids that significantly differ between experimental conditions.
+These modules perform formatting for **EdgeR** and **pathway enrichment** 
 
 ## Requirements
 
